@@ -10,3 +10,9 @@ Precisei usar 'bind' para referenciar ao objeto principal, que nesse caso é a c
 
 Accordion:
 Transformar em classe e criar métodos.
+
+TabNav:
+
+Transformar em classe, lembrando que classe não tem sintaxe de função ( function() ), a parte de função dela fica dentro do construtor.
+
+A partir do momento que se usa class, os métodos são parte do objeto, então preciso usar o this para referenciar o objeto, dentro dos métodos do objeto.
