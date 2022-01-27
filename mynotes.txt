@@ -1,0 +1,4 @@
+WEBPACK:
+
+--mode production
+--mode developer (usa com --watch para ficar atualizando o arquivo)
