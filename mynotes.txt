@@ -1,4 +1,12 @@
-WEBPACK:
+REFATORANDO:
 
---mode production
---mode developer (usa com --watch para ficar atualizando o arquivo)
+ScrollSuave: 
+Transformar em class, criar os métodos e referenciar corretamente o this.
+
+Dentro do constructor fiz a seguinte referência:
+this.scrollToSection = this.scrollToSection.bind(this);
+
+Precisei usar 'bind' para referenciar ao objeto principal, que nesse caso é a classe ScrollSuave;
+
+Accordion:
+Transformar em classe e criar métodos.
