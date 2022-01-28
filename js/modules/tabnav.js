@@ -18,7 +18,7 @@ export default class TabNav {
       itemMenu.addEventListener("click", () => this.activeTab(index));
     });
   }
-  // init, único método da classe usado para ativá-la, no script principal
+  // init, único método da classe usado para ativá-la no script principal
   init() {
     if (this.tabMenu.length && this.tabContent.length) {
       //Ativar primeiro item
