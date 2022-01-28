@@ -16,3 +16,8 @@ TabNav:
 Transformar em classe, lembrando que classe não tem sintaxe de função ( function() ), a parte de função dela fica dentro do construtor.
 
 A partir do momento que se usa class, os métodos são parte do objeto, então preciso usar o this para referenciar o objeto, dentro dos métodos do objeto.
+
+Modal:
+adiciono um return this no método de init para que eu possa usar essa classe em outras situações, visto que o this retorna o objeto da classe. Sendo assim, posso passar métodos diretamente no init, ex:
+
+Modal.init().teste
