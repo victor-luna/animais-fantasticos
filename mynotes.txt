@@ -21,3 +21,6 @@ Modal:
 adiciono um return this no método de init para que eu possa usar essa classe em outras situações, visto que o this retorna o objeto da classe. Sendo assim, posso passar métodos diretamente no init, ex:
 
 Modal.init().teste
+
+Tooltip:
+Verificar se os callbacks estão com o 'this'. Como os eventListener por exemplo
