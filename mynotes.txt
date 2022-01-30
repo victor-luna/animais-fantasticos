@@ -12,7 +12,6 @@ Accordion:
 Transformar em classe e criar métodos.
 
 TabNav:
-
 Transformar em classe, lembrando que classe não tem sintaxe de função ( function() ), a parte de função dela fica dentro do construtor.
 
 A partir do momento que se usa class, os métodos são parte do objeto, então preciso usar o this para referenciar o objeto, dentro dos métodos do objeto.
@@ -24,3 +23,9 @@ Modal.init().teste
 
 Tooltip:
 Verificar se os callbacks estão com o 'this'. Como os eventListener por exemplo
+
+Anima Numeros:
+Quando tenho uma função dentro (método) de uma classe que não tem referência ao objeto para funcionar, posso defini-la como 'static'
+
+Método do construtor é diferente do método do objeto (checar com console.log)
+Posso animar números em qualquer parte do site sem depender do observer, devido ao static.
